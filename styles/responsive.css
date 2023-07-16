@@ -1,0 +1,26 @@
+/* small Device */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+        max-width: 100%;
+        background-size: 85%;
+        background-position: center 150px;
+    }
+    nav{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 430px;
+    }
+    nav>ul{
+        gap: 15px;
+    }
+    .banner-container{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 28px;
+    }
+    .banner-desc{
+        font-size: 14px;
+    }
+}
