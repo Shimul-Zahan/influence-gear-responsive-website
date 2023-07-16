@@ -23,4 +23,20 @@
     .banner-desc{
         font-size: 14px;
     }
+    /* sponsor */
+    .sponsor-container{
+        width: 100%;
+        padding: 20;
+        margin-bottom: 54px;
+        border: none;
+        text-align: center;
+        grid-template-areas: 
+            "img-1 img-2 img-3 img-4"
+            "img-5 img-6 img-7";
+    }
+    .sponsor-container img{
+        width: 50.936px;
+        height: 15.332px;
+        margin: 10px 15px;
+    }
 }
