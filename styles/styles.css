@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
 :root{
@@ -75,6 +76,10 @@ nav ul li a{
     font-weight: 700;
     /* common font */
 }
+/* main part */
+main{
+    padding: 0 200px;
+}
 
 /* sponsor part */
 .sponsor-container{
@@ -111,4 +116,50 @@ nav ul li a{
 }
 
 
-/* cart part */
+/* Popular collections part */
+.collection-header{
+    text-align: center;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.collections-cards{
+    max-width: 329px;
+    max-height: 476px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 17px 15px 15px 14px;
+}
+.card-title{
+    font-family: Poppins;
+    font-size: 28px;
+}
+.card-rate{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+}
+.rating{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+.rating-star{
+    font-family: Roboto;
+    font-size: 14px;
+}
+.card-desc{
+    font-family: Inter;
+    font-size: 14px;
+    color: rgb(144, 142, 142);
+}
+.collections-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}

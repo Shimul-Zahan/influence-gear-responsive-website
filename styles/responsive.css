@@ -1,6 +1,7 @@
 /* small Device */
 @media screen and (max-width: 576px) {
-    header{
+    header
+    {
         padding: 20px;
         max-width: 100%;
         background-size: 85%;
@@ -24,6 +25,11 @@
         font-size: 14px;
     }
     /* sponsor */
+    /* main */
+    main{
+        width: 100%;
+        padding: 0;
+    }
     .sponsor-container{
         width: 100%;
         padding: 20;
@@ -38,5 +44,9 @@
         width: 50.936px;
         height: 15.332px;
         margin: 10px 15px;
+    }
+    .collections-container{
+        flex-direction: column;
+        gap: 40px;
     }
 }
