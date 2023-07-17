@@ -20,6 +20,7 @@ header{
     background-image: url("../images/main-camera.png"), url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
     background-position: 90% 181px;
+    margin-bottom: 100px;
 }
 /* navbar */
 nav{
@@ -77,40 +78,29 @@ nav ul li a{
     /* common font */
 }
 /* main part */
+main{
+    padding: 0 390px;
+}
+
 
 /* sponsor part */
 .sponsor-container{
-    margin: 70px auto 100px;
-    max-width: 1110px;
-    display: grid;
+    margin: auto;
+    max-width: 1190px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 100px;
+}
+.div-1{
+    display: flex;
     align-items: center;
-    grid-template-areas: 
-        "img-1 img-2 img-3 img-4 img-5 img-6 img-7"
-    ;
-    border-bottom: 1px solid rgb(165, 162, 162);
-    border-top: 1px solid rgb(165, 162, 162);
-    padding: 36px;
 }
-.sponsor-container img:nth-child(1){
-    grid-area: img-1;
-}
-.sponsor-container img:nth-child(2){
-    grid-area: img-2;
-}
-.sponsor-container img:nth-child(3){
-    grid-area: img-3;
-}
-.sponsor-container img:nth-child(4){
-    grid-area: img-4;
-}
-.sponsor-container img:nth-child(5){
-    grid-area: img-5;
-}
-.sponsor-container img:nth-child(6){
-    grid-area: img-6;
-}
-.sponsor-container img:nth-child(7){
-    grid-area: img-7;
+.sponsor-container img{
+    margin: 0 35px;
 }
 
 
