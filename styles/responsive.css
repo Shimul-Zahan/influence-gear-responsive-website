@@ -42,8 +42,28 @@
         width: 51.167px;
         height: 15.241px;
     }
-    .collections-container{
+    .collections-container
+    {
         flex-direction: column;
         gap: 40px;
+        margin-bottom: 100px;
+    }
+    /* feature product */
+    .feature-product-container{
+        width: 100%;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .feature-product-image img{
+        width: 100%;
+    }
+    .feature-product-title{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .feature-product-subtitle{
+        font-size: 16px;
+        margin-bottom: 60px;
     }
 }

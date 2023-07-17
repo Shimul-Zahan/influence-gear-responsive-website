@@ -78,9 +78,6 @@ nav ul li a{
     /* common font */
 }
 /* main part */
-main{
-    padding: 0 390px;
-}
 
 
 /* sponsor part */
@@ -149,5 +146,37 @@ main{
     justify-content: center;
     align-items: center;
     gap: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 174px;
+}
+
+/* feature product */
+.feature-product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+}
+.feature-product-title{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature-product-subtitle{
+    max-width: 501px;
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+.join-now{
+    width: 155px;
+    height: 44px;
+    padding: 10px 24px;
+    background: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Poppins;
+    color: #FFF;
 }
