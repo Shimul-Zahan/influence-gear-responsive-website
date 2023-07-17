@@ -1,7 +1,8 @@
 /* small Device */
 @media screen and (max-width: 576px) {
     header,
-    main
+    main,
+    footer
     {
         padding: 20px;
         max-width: 100%;

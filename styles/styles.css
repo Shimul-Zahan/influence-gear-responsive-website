@@ -155,6 +155,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     gap: 96px;
+    margin-bottom: 100px;
 }
 .feature-product-title{
     color: #0A0826;
@@ -179,4 +180,25 @@ nav ul li a{
     font-weight: 700;
     font-family: Poppins;
     color: #FFF;
+}
+
+/* footer */
+footer{
+    height: 239px;
+    background: #0A0826;
+    text-align: center;
+    color: #FFF; 
+}
+.footer-title{
+    font-size: 28px;
+    font-size: Poppins;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.copyright{
+    font-size: 14px;
+    margin: 3px 0 17px;
+}
+footer i{
+    margin: 0 10px;
 }
